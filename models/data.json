@@ -1,0 +1,61 @@
+{
+    "products":[
+      {
+        "id": 1,
+        "timestamp":"",
+        "name": "auto",
+        "description": "descripcion",
+        "code": "codigo",
+        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/car-128.png",
+        "price": 323.45,
+        "stock": 15
+         },
+      {
+        "id": 2,
+        "timestamp":"",
+        "name": "camioneta",
+        "code":"codigo",
+        "description": "descripcion",
+        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/cab-128.png",
+        "price": 234.56,
+        "stock":58        
+      }, 
+      {
+        "id": 3,
+        "timestamp":"",
+        "name": "camion",
+        "description": "descripcion",
+        "code":"codigo",
+        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
+        "price": 234.56,
+        "stock":88        
+      }      
+    ],
+    "carrito":[
+      {
+        "id":1,
+        "timestamp":"",
+        "products":[{
+            "id": 1,
+            "timestamp":"",
+            "name": "auto",
+            "description": "descripcion",
+            "code": "codigo",
+            "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/car-128.png",
+            "price": 323.45,
+            "stock": 15
+        },
+        {
+            "id": 3,
+            "timestamp":"",
+            "name": "camion",
+            "description": "descripcion",
+            "code":"codigo",
+            "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
+            "price": 234.56,
+            "stock":88        
+        }]
+      }
+    ]
+            
+}
