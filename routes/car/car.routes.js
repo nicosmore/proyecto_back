@@ -14,6 +14,6 @@ router.post('/', carCont.save);
 
 router.post('/:IdCar/:IdProd', carCont.saveProds);
 
-router.delete('/:Id', carCont.deleteById);
+router.delete('/:IdCar/:IdProd', carCont.deleteById);
 
 module.exports = router; 

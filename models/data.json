@@ -1,61 +1,72 @@
 {
-    "products":[
-      {
-        "id": 1,
-        "timestamp":"",
-        "name": "auto",
-        "description": "descripcion",
-        "code": "codigo",
-        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/car-128.png",
-        "price": 323.45,
-        "stock": 15
-         },
-      {
-        "id": 2,
-        "timestamp":"",
-        "name": "camioneta",
-        "code":"codigo",
-        "description": "descripcion",
-        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/cab-128.png",
-        "price": 234.56,
-        "stock":58        
-      }, 
-      {
-        "id": 3,
-        "timestamp":"",
-        "name": "camion",
-        "description": "descripcion",
-        "code":"codigo",
-        "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
-        "price": 234.56,
-        "stock":88        
-      }      
-    ],
-    "carrito":[
-      {
-        "id":1,
-        "timestamp":"",
-        "products":[{
-            "id": 1,
-            "timestamp":"",
-            "name": "auto",
-            "description": "descripcion",
-            "code": "codigo",
-            "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/car-128.png",
-            "price": 323.45,
-            "stock": 15
+  "products": [
+    {
+      "id": 1,
+      "timestamp": "",
+      "name": "cambioel1",
+      "description": "descripcion",
+      "code": "4568",
+      "image": "http://imageadidas.png",
+      "price": "456",
+      "stock": "14"
+    },
+    {
+      "id": 2,
+      "timestamp": "",
+      "name": "camioneta",
+      "code": "codigo",
+      "description": "descripcion",
+      "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/cab-128.png",
+      "price": 234.56,
+      "stock": 58
+    },
+    {
+      "id": 3,
+      "timestamp": "",
+      "name": "camion",
+      "description": "descripcion",
+      "code": "codigo",
+      "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
+      "price": 234.56,
+      "stock": 88
+    },
+    {
+      "id": 4,
+      "timestamp": 1665409816973,
+      "name": "coso",
+      "description": "descripcion",
+      "code": "4568",
+      "image": "http://imageadidas.png",
+      "price": 456,
+      "stock": 14
+    }
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "timestamp": "",
+      "products": [
+        {
+          "id": 3,
+          "timestamp": "",
+          "name": "camion",
+          "description": "descripcion",
+          "code": "codigo",
+          "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
+          "price": 234.56,
+          "stock": 88
         },
         {
-            "id": 3,
-            "timestamp":"",
-            "name": "camion",
-            "description": "descripcion",
-            "code":"codigo",
-            "image": "https://cdn1.iconfinder.com/data/icons/cars-01-1/512/truck-128.png",
-            "price": 234.56,
-            "stock":88        
-        }]
-      }
-    ]
-            
+          "id": 1,
+          "timestamp": "",
+          "name": "cambioel1",
+          "description": "descripcion",
+          "code": "4568",
+          "image": "http://imageadidas.png",
+          "price": "456",
+          "stock": "14"
+        }
+      ]
+    }
+  ]
 }
