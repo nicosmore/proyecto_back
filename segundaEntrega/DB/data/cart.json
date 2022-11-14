@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "timestamp": "",
+    "products": [
+      {
+        "id": 3
+      },
+      {
+        "id": "2"
+      },
+      {
+        "id": "1"
+      },
+      {
+        "id": "1"
+      }
+    ]
+  },
+  {
+    "id": "a87d6d5e-0810-465e-b1b9-6b3dfd70d01b",
+    "timestamp": 1668375389419,
+    "products": [
+      {
+        "id": "1"
+      }
+    ]
+  },
+  {
+    "id": "6e7e3f29-a9cb-41e5-815e-f53fb96e5c9c",
+    "timestamp": 1668375398867,
+    "products": []
+  }
+]

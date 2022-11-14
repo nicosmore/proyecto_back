@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "productcambio",
+    "description": "descripcion nueva",
+    "code": "123456",
+    "image": "http://imageadidas.png",
+    "price": "456",
+    "stock": "14"
+  }
+]
