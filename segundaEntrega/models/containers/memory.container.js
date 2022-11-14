@@ -14,7 +14,7 @@ class MemoryContainer {
   
     getById(id) {
       console.log(id);      
-      const item = this.items.find(item => item.id = id);
+      const item = this.items.find(item => item.id == id);
 
       if (!item) {
         const message = `${this.resource} with id ${id} does not exist in our records`;
