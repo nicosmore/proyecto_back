@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body class="col">
+    <div class="container col-5 mt-5">        
+        <div class="border p-2 m-3">            
+            <h4 class="text-center">Login</h4>
+            <br>
+            <form id="loginForm" class="" action="/api/auth/login" method="post">
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" class="form-control " type="email" step="0.01" name="username" required>
+                </div> 
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" class="form-control " type="password" name="password" required>
+                </div>  
+                 <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-success mt-3">Enviar</button>                    
+                 </div> 
+            </form>            
+            <br>           
+        </div>
+    </div> 
+    <div class="container col-5 mt-5">        
+        <div class="border p-2 m-3">            
+            <h4 class="text-center">Registro</h4>
+            <br>
+            <form id="signupForm" class="" action="/api/auth/register" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input id="name" class="form-control " type="text" step="0.01" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Direccion</label>
+                    <input id="address" class="form-control " type="text" step="0.01" name="address" required>
+                </div>   
+                <div class="form-group">
+                    <label for="age">Edad</label>
+                    <input id="age" class="form-control " type="number" step="0.01" name="age" required>
+                </div>                           
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input id="email" class="form-control " type="email" step="0.01" name="username" required>
+                </div> 
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input id="password" class="form-control " type="password" name="password" required>
+                </div>  
+                <form id="signupForm" action="/api/file" enctype="multipart/from-data" method="POST">
+                    <div class="form-group">
+                        <label for="avatar">Imagen de Perfil</label>
+                        <input id="avatar" class="form-control " type="file" step="0.01" name="avatar" accept="image/png, image/jpeg" required>
+                        <button onclick="clearFile('single')" class="btn btn-danger mt-3">Eliminar archivo</button>
+                    </div>
+                    <div>               
+                </form>
+                 <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-success mt-3">Registrar</button>                    
+                 </div>   
+            </form>  
+                      
+            <br>           
+        </div>
+    </div>    
+</body>
+</html>

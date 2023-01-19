@@ -1,0 +1,30 @@
+<style>
+    .table td,
+    .table th {
+        vertical-align: middle;
+    }  
+   
+    .jumbotron {
+        min-height: auto;
+    }
+</style>
+
+<div class="border p-2">
+    <h4>Vista de Productos</h4>
+    <br>    
+    {{#if products.length}}
+        {{#each products}}
+            <div className="card m-2 p-2 col-sm-5 col-md-4 col-lg-3 text-center rounded-0">
+                <img className="" src={{this.image}} alt=""></img>
+                <div className="card-body">
+                <h5 className="card-title text-capitalize">{{this.name}}</h5>
+                <p className="card-subtitle text-muted">Categoria: All</p>
+                <p className="card-text fs-5">${{this.price}}</p>
+                <button className="btn btn-outline-primary rounded-0">Agregar</button>
+                </div>
+            </div>            
+        {{/each}}    
+    {{else}}
+    <h4 class="alert alert-danger fw-semibold text-center">No se encontraron productos</h4>
+    {{/if}}
+</div>
